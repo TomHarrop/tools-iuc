@@ -475,9 +475,6 @@ $read_mod_options.zero_cap
                     </conditional>
                 </repeat>
             </section>
-            <!-- This is only picking up one of the two files. -->
-            <!-- If both are enabled it picks up forward, no matter the order. -->
-            <!-- If forward is disabled it picks up reverse. -->
             <output_collection type="paired" name="out_pairs" count="2" >
                 <element name="forward" value="cutadapt_out1.fq.gz" decompress="True" ftype="fastq.gz">
                     <assert_contents>

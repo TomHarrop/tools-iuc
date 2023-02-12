@@ -1,5 +1,5 @@
 name: Galaxy Tool Linting and Tests for push and PR
-on: [push, pull_request]
+on: [push, pull_request, workflow_call]
 env:
   GALAXY_FORK: galaxyproject
   GALAXY_BRANCH: release_22.05
